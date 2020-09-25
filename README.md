@@ -1,3 +1,3 @@
 # CPSC2130
-Multimedia &amp; Animation Term Project
-<a href="ahmadizadeh.ir>Amin Ahmadizadeh</a>
+Multimedia &amp; Animation Term Project<br>
+[Amin Ahmadizadeh](http://ahmadizadeh.ir)
