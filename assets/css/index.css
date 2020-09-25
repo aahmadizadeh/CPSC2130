@@ -1,0 +1,72 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: repeat(3,200px);
+    column-gap: 10px;
+    row-gap: 20px;
+}
+#LeftAdvert{
+    margin-left: 1rem;
+    grid-area: 1/1/span 3/span 1;
+    background-color: var(--main-color);
+    color: var(--highlight-color);
+}
+#LeftAdvert h1{
+    writing-mode: vertical-rl;
+    margin: auto;
+    margin-top: 50%;
+}
+#mainAdvert{
+    grid-area: 1/2/span 1/span 5;
+    background-color: var(--gray-color);
+    color: var(--main-color);
+    text-align: center;
+}
+#mainAdvert h1{
+    margin-top: 70px;
+}
+
+#mainSpecialDeal{
+    grid-area: 2 / 2 / span 1 / span 2;
+    background-color: var(--main-color);
+    color: var(--highlight-color);
+    text-align: center;
+}
+#mainSpecialDeal h1{
+    margin-top: 70px;
+}
+#mainEvent{
+    grid-area: 2 / 4 / span 1 / span 3;
+    background-color: var(--main-color);
+    color: var(--highlight-color);
+    text-align: center;
+}
+#mainEvent h1{
+    margin-top: 70px;
+}
+#blogPost1,#blogPost2,#blogPost3{
+    background-color: var(--gray-color);
+    color: var(--main-color);
+    text-align: center;
+}
+#blogPost1 h2,#blogPost2 h2,#blogPost3 h2{
+    margin-top: 70px;
+}
+#blogPost1{
+    grid-area: 3 / 2 / span 1/ span 1;
+}
+#blogPost2{
+    grid-area: 3 / 3 / span 1/ span 1;
+}
+#blogPost3{
+    grid-area: 3 / 4 / span 1/ span 1;
+}
+#specialDeal2{
+    grid-area: 3 / 5 / span 1/ span 2;
+    background-color: var(--gray-color);
+    color: var(--main-color);
+    text-align: center;
+}
+#specialDeal2 h1{
+    margin-top: 70px;
+}
