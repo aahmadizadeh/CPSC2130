@@ -8,13 +8,10 @@
 #LeftAdvert{
     margin-left: 1rem;
     grid-area: 1/1/span 3/span 1;
-    background-color: var(--main-color);
-    color: var(--highlight-color);
 }
-#LeftAdvert h1{
-    writing-mode: vertical-rl;
-    margin: auto;
-    margin-top: 50%;
+#LeftAdvert img{
+    width: 185px;
+    height: 650px
 }
 #mainAdvert{
     grid-area: 1/2/span 1/span 5;

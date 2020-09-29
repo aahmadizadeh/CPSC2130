@@ -6,7 +6,7 @@
     --wrapper-color : white;
     --highlight-color : white;
     --highlight-background-color : var(--main-color);
-    --outstanding-color : orangered;
+    --outstanding-color : #ff4500;
     --shadow-color : black;
 
 }
@@ -27,7 +27,7 @@ body a{
     max-width: 1280px;
     margin: auto;
     background-color: var(--wrapper-color);
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Orbitron', sans-serif;
 }
 #header{
@@ -35,6 +35,15 @@ body a{
     font-size: 3em;
     text-align: center;
     text-shadow: 5px 5px 5px var(--shadow-color);
+    display: flex;
+    align-items: center;
+}
+#header h1{
+    width: 1000px;
+    text-align: center;
+}
+#header img{
+    width: 200px
 }
 #menu{
     border-radius: 5px;
@@ -116,7 +125,7 @@ body a:hover{
     border-radius: 5px;
 }
 
-
+/* 
 @media only screen and (max-width: 1000px) {
     #wrapper{
         width: 800px;
@@ -151,4 +160,4 @@ body a:hover{
         margin-top: .5rem;
     }
 
-  }
+  } */
