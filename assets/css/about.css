@@ -27,3 +27,17 @@
     margin: auto;
     margin-top: 50%;
 }
+#context{
+    margin-left: 1rem;
+    grid-area: 1/2/span 1/span 5;
+    color: var(--main-color);
+    line-height: 2rem;
+}
+#animatedLogo{
+    margin-top: 2rem;
+    text-align: center;
+    grid-area: 2/2/span 1/span 5;
+}
+#context p{
+    margin-top: 1rem;
+}
